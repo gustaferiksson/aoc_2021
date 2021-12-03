@@ -1,0 +1,17 @@
+{
+  "name": "aoc_2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "solve": "yarn part1 && yarn part2",
+    "part1": "part=part1 node ./solution.js",
+    "part2": "part=part2 node ./solution.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.3.0"
+  }
+}
