@@ -5,8 +5,8 @@
   "main": "",
   "scripts": {
     "solve": "yarn part1 && yarn part2",
-    "part1": "part=part1 node ./solution.js",
-    "part2": "part=part2 node ./solution.js",
+    "part1": "part=part1 node $INIT_CWD/solution.js",
+    "part2": "part=part2 node $INIT_CWD/solution.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
